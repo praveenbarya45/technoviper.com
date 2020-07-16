@@ -936,6 +936,9 @@ LOADER
 	 border:1px solid gray;
 	 border-radius:25px;
 }
+.d21{
+	background-color: #e0e0eb;
+}
  .contact-block .form-group textarea.form-control{
      height: 150px;
      padding-top: 15px;
@@ -959,6 +962,7 @@ LOADER
      background:  #060613;
      padding: 50px 0;
      text-align: center;
+	 width:100%;
 }
  .footer-box .footer-company-name {
      text-align: center;
