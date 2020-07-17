@@ -35,6 +35,7 @@ body {
 a,
 button {
   transition: all 0.3s ease;
+  
 }
 
 a:hover {
@@ -42,7 +43,7 @@ a:hover {
 }
 
 .container-fluid {
-  max-width: 1310px;
+  max-width: 1260px;
 }
 
 .small,
@@ -52,6 +53,7 @@ small {
 
 .parallax-window {
 	width:100%;
+	  overflow-x: hidden;
   min-height: 1100px;
   background: transparent;
 }
@@ -75,7 +77,7 @@ small {
 	padding:20px;
 }
 .tm-feature-box1 {
-  width: 420px;
+  width: 400px;
   height: 410px;
   border-radius: 10px;
   text-align: center;
@@ -100,7 +102,7 @@ small {
 }
 
 .tm-brand-container {
-  width: 360px;
+  width: 90%;
   height: 200px;
   display: flex;
   align-items: center;
@@ -270,6 +272,7 @@ small {
   max-width: 1260px;
   margin-left: auto;
   margin-right: auto;
+  overflow:hidden;
 }
 
 .tm-feature-box {
@@ -280,6 +283,7 @@ small {
   padding: 40px 50px;
   margin-left: auto;
   margin-right: auto;
+  overflow:hidden;
 }
 
 .tm-feature-name {
